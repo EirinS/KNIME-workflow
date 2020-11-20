@@ -1,0 +1,17 @@
+minlon,-180
+minlat,70
+maxlon,180
+maxlat,90
+cenlon,-5
+cenlat,85
+radius,15
+narray,1
+shape,rectangular
+coloring_database,IBCAO
+loaded_sources, null
+arrayIndexS, null
+loaded_receivers, null
+arrayIndexR, null
+coloring,IBCAO_Arctic_2min.mat
+coastline,high_res.mat
+

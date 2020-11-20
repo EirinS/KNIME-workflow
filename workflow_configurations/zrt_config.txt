@@ -1,0 +1,8 @@
+delR, 5
+source_idx, 1
+receiver_idx, 2
+database, 0
+timevariation, 1
+profile_type, 4
+depthspan, [-1 -1]
+
