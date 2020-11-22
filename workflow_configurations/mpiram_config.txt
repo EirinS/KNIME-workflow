@@ -1,0 +1,3 @@
+q_value,2
+frequency,70
+time_window,10
