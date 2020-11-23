@@ -1,0 +1,2 @@
+frequency, 100
+simtype, 2

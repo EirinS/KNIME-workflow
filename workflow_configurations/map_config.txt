@@ -13,5 +13,5 @@ arrayIndexS, null
 loaded_receivers, null
 arrayIndexR, null
 coloring,IBCAO_Arctic_2min.mat
-coastline,high_res.mat
+coastline,coast_world.dat
 
