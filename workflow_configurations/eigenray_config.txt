@@ -1,0 +1,7 @@
+mode, 1 // 0 = eigenray, 1 = timefront
+save_paths, 0
+use_bot, 0
+angle_range, [-10 10]
+epsilon, 1e-5
+nbounce, 5
+num_rays, 2000

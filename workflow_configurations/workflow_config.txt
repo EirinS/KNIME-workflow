@@ -1,4 +1,4 @@
 database_dir, C:\Users\Eirin\Documents\Master\Workflow-files\KNIME-workflow\dataBase\
-src_file,C:\Users\Eirin\Documents\Master\Arctic.Ocean\priorRuns\sources_TAP.dat
-rcv_file,C:\Users\Eirin\Documents\Master\Arctic.Ocean\priorRuns\receivers_tmp.dat
+src_file,C:\Users\Eirin\Documents\Master\Arctic.Ocean\priorRuns\sources_CAATEX.dat
+rcv_file,C:\Users\Eirin\Documents\Master\Arctic.Ocean\priorRuns\receivers_CAATEX.dat
 matlablib,C:\Users\Eirin\Documents\Master\Workflow-files\Arctic.Ocean-v2\
