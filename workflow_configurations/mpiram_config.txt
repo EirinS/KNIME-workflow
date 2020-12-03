@@ -1,3 +1,0 @@
-q_value,5
-frequency,50
-time_window,10
