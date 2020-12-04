@@ -12,10 +12,12 @@
 ## How to set up
 
 1. Install the required software
-2. Open KNIME and import KNIME workflow. Locate the .knar file of the workflow and import it to KNIME. When opening the workflow, you are prompted to install missing extensions (Matlab Plot, Matlab Snippet, External Tool). Press "yes". You need the extensions to run the workflow.
-3. Clone the Arctic Package v2 repository into the ArcticOceanFiles folder. If you select another location, you might need to reconfigure the workflow nodes in order for the files to be detected.
-4. Clone the Acoustic Models repository into the ArcticOceanFiles folder. If you select another location, you might need to reconfigure the workflow nodes in order for the files to be detected.
-5. The external tool node will need configuration, as it does not detect user settings. This can be done once and then the settings will be remembered. Go to each of the model components -> external tool and set the input, output and execution directory to paths that exist (it does not matter where, as these settings will be overwritten). Then set the executable to be a program that executes .sh files, for example GitBash.exe.
+2. Open KNIME and import KNIME workflow. Locate the .knar file of the workflow and import it to KNIME. When opening the workflow, you are prompted to install missing extensions (Matlab Plot and Matlab Snippet). Press "yes". You need the extensions to run the workflow.
+3. Create a folder in the workflow group called ``ArcticOceanFiles``. This is the folder where KNIME will look for the files that the workflow needs to run. If you want to place the files at another location, you need to reconfigure the ``Configure workflow folder paths`` node.
+3. Clone the Arctic Package v2 repository into the ArcticOceanFiles folder. If you select another location, you will need to reconfigure the workflow nodes in order for the files to be detected. This can be done by right clicking on the ``Configure workflow folder paths`` node and clicking "configure". Now set the locations to the folder of the ArcticOcean matlab files.
+4. Clone the Acoustic Models repository into the ``ArcticOceanFiles`` folder. If you select another location, you will need to reconfigure the workflow nodes in order for the files to be detected. This can be done by right clicking on the ``Configure workflow folder paths`` node and clicking "configure". Now set the location of the acoustic models to be your location.
+5. Add a folder ``dataBase`` within the folder ``ArcticOceanFiles`` containing the database files. You can select another location of the database files by reconfiguring the ``Configure workflow folder paths`` node.
+6. Add a folder ``priorRuns`` within the folder ``ArcticOceanFiles`` containing the source and receiver files. You can select another location of the database files by reconfiguring the ``Configure workflow folder paths`` node.
 
 You should now be ready to run the workflow.
 
